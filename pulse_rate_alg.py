@@ -227,4 +227,4 @@ def RunPulseRateAlgorithm(data_fl, ref_fl):
     conf_array = np.array(confidence)
     
     # Return per-estimate absolute error and confidence as a 2-tuple of numpy arrays.
-    return error_array, conf_array
+    return error_array, conf_array  
